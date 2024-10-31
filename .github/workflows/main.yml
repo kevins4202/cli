@@ -1,0 +1,36 @@
+# .github/workflows/daily_run.yml
+
+name: Daily Python Script
+
+# Schedule this workflow to run daily at 4 AM UTC (adjust the cron if needed).
+on:
+  schedule:
+    - cron: '5 21 * * *'  # Runs daily at 4 AM UTC
+
+jobs:
+  run-python:
+    # Specify the virtual environment to use. This runs on GitHub's Linux environment,
+    # so no configuration is needed on your local Mac.
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repo to access the script
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      # Step 2: Set up Python (replace '3.x' with your required Python version)
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      # Step 3: Install dependencies if you have a requirements.txt file
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      # Step 4: Run the Python script
+      - name: Run Python script
+        run: python3 bing.py
