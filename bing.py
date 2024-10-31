@@ -1,7 +1,8 @@
 import requests, json, time, os
 
-subscription_key = os.environ.get("newsapi_key")
-path = os.environ.get("path")
+subscription_key = os.environ.get("NEWSAPI_KEY1")
+# print(subscription_key)
+# print(path)
 search_term = "election"
 search_url = "https://api.bing.microsoft.com/v7.0/news"
 
@@ -10,14 +11,14 @@ headers = {"Ocp-Apim-Subscription-Key" : subscription_key}
 topics = []
 
 def run():
-    with open(f'{path}/cats.txt', 'r') as fp:
+    with open(f'cats.txt', 'r') as fp:
         topics = fp.readlines()
         for i in range(len(topics)):
             topics[i] = topics[i].strip()
         print(topics)
 
     json_obj = {}
-    with open(f'{path}/results/result.json', 'w') as fp:
+    with open(f'results/result.json', 'w') as fp:
         for topic in topics:
             # wait 3 seconds
             time.sleep(3)
@@ -48,3 +49,5 @@ def run():
         
         json.dump(json_obj, fp)
         return json_obj
+
+run()

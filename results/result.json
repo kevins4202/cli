@@ -1,402 +1,55 @@
 {
-  "Business": [
-    {
-      "description": "Investment banking surge at Morgan Stanley solidifies Wall Street revival",
-      "url": "https://www.msn.com/en-us/money/companies/investment-banking-surge-at-morgan-stanley-solidifies-wall-street-revival/ar-AA1sn39e"
-    },
-    {
-      "description": "Bloomberg Philanthropies launches its largest Mayors Challenge ever to inspire city leaders globally",
-      "url": "https://www.msn.com/en-us/money/companies/bloomberg-philanthropies-launches-its-largest-mayors-challenge-ever-to-inspire-city-leaders-globally/ar-AA1snKr8"
-    },
-    {
-      "description": "Nvidia Stock Rises After ASML Earnings Sparked AI Market Panic",
-      "url": "https://www.msn.com/en-us/money/topstocks/nvidia-stock-rising-after-asml-earnings-sparked-ai-market-panic/ar-AA1smtbN"
-    },
-    {
-      "description": "Stock market today: World shares are mixed as Britain reports lower inflation",
-      "url": "https://www.msn.com/en-us/money/markets/stock-market-today-world-shares-are-mixed-as-britain-reports-lower-inflation/ar-AA1slstW"
-    },
-    {
-      "description": "Investors develop an allergy to GRANOLAS after ASML, LVMH downturns",
-      "url": "https://www.msn.com/en-us/money/companies/investors-develop-an-allergy-to-granolas-after-asml-lvmh-downturns/ar-AA1sm3rp"
-    },
-    {
-      "description": "FTC moves to take the frustration out of canceling subscriptions for consumers",
-      "url": "https://www.msn.com/en-us/money/companies/ftc-moves-to-take-the-frustration-out-of-canceling-subscriptions-for-consumers/ar-AA1sn45r"
-    },
-    {
-      "description": "UKs ultra-rich non-doms urge Italian-style tax regime to prevent wealth exodus",
-      "url": "https://www.msn.com/en-us/money/markets/uks-ultra-rich-non-doms-urge-italian-style-tax-regime-to-prevent-wealth-exodus/ar-AA1snvUb"
-    },
-    {
-      "description": "Gold Futures Rise to Near-Record Highs, Attracting More Buyers",
-      "url": "https://www.msn.com/en-us/money/markets/base-metal-prices-rise-recouping-some-losses-from-china-stimulus-disappointment/ar-AA1skDr6"
-    },
-    {
-      "description": "ASML CEO Sees Slow Chip Recovery Extending \u2018Well Into 2025\u2019",
-      "url": "https://www.msn.com/en-us/money/other/asml-ceo-sees-slow-chip-recovery-extending-well-into-2025/ar-AA1snjc0"
-    },
-    {
-      "description": "Should You Pay Off Your Mortgage Early?",
-      "url": "https://www.msn.com/en-us/money/realestate/should-you-pay-off-your-mortgage-early/ar-AA1gMXeQ"
-    },
-    {
-      "description": "Abbott Narrows 2024 Forecast as Diabetes Devices Drive Sales",
-      "url": "https://www.msn.com/en-us/money/companies/abbott-narrows-2024-forecast-as-diabetes-devices-drive-sales/ar-AA1snsOX"
-    },
-    {
-      "description": "These Stocks Are Moving the Most Today: ASML, Nvidia, United Airlines, J.B. Hunt, DJT, Novocure, Morgan Stanley, and More",
-      "url": "https://www.msn.com/en-us/money/topstocks/these-stocks-are-moving-the-most-today-asml-nvidia-morgan-stanley-united-airlines-jb-hunt-djt-novocure-and-more/ar-AA1sm3FZ"
-    }
-  ],
-  "Entertainment": [
-    {
-      "description": "Tom Ellis calls Tell Me Lies professor slightly broken soul with slightly bad intentions",
-      "url": "https://www.msn.com/en-us/entertainment/news/tom-ellis-calls-tell-me-lies-professor-slightly-broken-soul-with-slightly-bad-intentions/ar-AA1smbNi"
-    },
-    {
-      "description": "Saoirse Ronan feels \u2018fortunate\u2019 she could step away from acting to have children",
-      "url": "https://www.msn.com/en-us/money/markets/saoirse-ronan-feels-fortunate-she-could-step-away-from-acting-to-have-children/ar-AA1snoJx"
-    },
-    {
-      "description": "7 Facts About \u201cLaverne and Shirley\u201d",
-      "url": "https://www.msn.com/en-us/tv/news/7-facts-about-laverne-and-shirley/ar-AA18Lhzw"
-    },
-    {
-      "description": "The Blessed Madonnas debut album pulsates pain and joy",
-      "url": "https://www.msn.com/en-us/music/news/the-blessed-madonnas-debut-album-pulsates-pain-and-joy/ar-AA1siEtd"
-    },
-    {
-      "description": "Joy at the London Film Festival review: this IVF drama is heartwarming but unremarkable",
-      "url": "https://www.msn.com/en-us/movies/news/joy-at-the-london-film-festival-review-this-ivf-drama-is-heartwarming-but-unremarkable/ar-AA1sn9pH"
-    },
-    {
-      "description": "Ozzy Osbourne speaks out on ex-guitarists shooting as he blasts senseless act",
-      "url": "https://www.msn.com/en-us/music/news/ozzy-osbourne-speaks-out-on-ex-guitarists-shooting-as-he-blasts-senseless-act/ar-AA1snvcy"
-    },
-    {
-      "description": "Dancing With the Stars: Hayley Erbert Hough makes emotional return to the ballroom as dancers deliver powerful tributes on Dedication Night",
-      "url": "https://www.msn.com/en-us/music/news/dancing-with-the-stars-hayley-erbert-hough-makes-emotional-return-to-the-ballroom-as-dancers-deliver-powerful-tributes-on-dedication-night/ar-AA1snkdi"
-    },
-    {
-      "description": "Sean \u2018Diddy\u2019 Combs pictured with alleged underage sexual assault victim at 1998 white party",
-      "url": "https://www.msn.com/en-us/news/crime/sean-diddy-combs-pictured-with-alleged-underage-sexual-assault-victim-at-1998-white-party/ar-AA1snzY8"
-    },
-    {
-      "description": "Watch new trailer for Man in the White Van, suspense flick with Jacksonville connections",
-      "url": "https://www.msn.com/en-us/movies/news/watch-new-trailer-for-man-in-the-white-van-suspense-flick-with-jacksonville-connections/ar-AA1smeFa"
-    },
-    {
-      "description": "Feathers McGraw plays dramatic organ solo in new Wallace And Gromit trailer",
-      "url": "https://www.msn.com/en-us/movies/news/feathers-mcgraw-plays-dramatic-organ-solo-in-new-wallace-and-gromit-trailer/ar-AA1snb41"
-    },
-    {
-      "description": "Hinder\u2019s Cody Hanson Is Excited For Band\u2019s Next Album \u2013 \u2018There\u2019s Something On It For Everyone\u2019",
-      "url": "https://www.msn.com/en-us/music/news/hinder-s-cody-hanson-is-excited-for-band-s-next-album-there-s-something-on-it-for-everyone/ar-AA1snlQj"
-    },
-    {
-      "description": "DWTS Derek Hough praised for breaking number board in dig at Gene Simmons",
-      "url": "https://www.msn.com/en-us/tv/news/dwts-derek-hough-praised-for-breaking-number-board-in-dig-at-gene-simmons/ar-AA1snnfn"
-    }
-  ],
-  "Politics": [
-    {
-      "description": "Trump says Black and Latino Harris supporters need their \u2018head examined,\u2019 echoing frequent barb",
-      "url": "https://www.msn.com/en-us/news/politics/trump-says-black-and-latino-harris-supporters-need-their-head-examined-echoing-frequent-barb/ar-AA1sn41G"
-    },
-    {
-      "description": "More than 672K Michigan voters have returned absentee ballots ahead of Nov. 5 election",
-      "url": "https://www.msn.com/en-us/news/politics/more-than-672k-michigan-voters-have-returned-absentee-ballots-ahead-of-nov-5-election/ar-AA1snf3A"
-    },
-    {
-      "description": "The Trump Loyalist Democrats Have a Chance to Defeat",
-      "url": "https://www.msn.com/en-us/news/politics/a-trump-loyalist-on-the-brink/ar-AA1smM2o"
-    },
-    {
-      "description": "Democrats joint fundraising outpaces Republicans",
-      "url": "https://www.msn.com/en-us/news/politics/democrats-joint-fundraising-outpaces-republicans/ar-AA1slWrS"
-    },
-    {
-      "description": "Key takeaways from the combative Ted Cruz, Colin Allred debate",
-      "url": "https://www.msn.com/en-us/news/politics/key-takeaways-from-the-combative-ted-cruz-colin-allred-debate/ar-AA1snnNe"
-    },
-    {
-      "description": "2024 election live updates: Harris seeks to appeal to GOP with Pa. rally, Fox News interview",
-      "url": "https://www.msn.com/en-us/news/politics/election-2024-live-updates-harris-seeks-to-appeal-to-gop-with-pa-rally-fox-news-interview/ar-AA1smIj8"
-    },
-    {
-      "description": "Portland mayoral candidates pitch plans to tame homelessness, improve policing during televised debate",
-      "url": "https://www.msn.com/en-us/news/us/portland-mayoral-candidates-pitch-plans-to-tame-homelessness-improve-policing-during-televised-debate/ar-AA1sllsX"
-    },
-    {
-      "description": "Project 2025 ex-director condemns Heritage president\u2019s \u2018violent rhetoric\u2019",
-      "url": "https://www.msn.com/en-us/news/politics/project-2025-ex-director-condemns-heritage-president-s-violent-rhetoric/ar-AA1snhza"
-    },
-    {
-      "description": "Abortion Ballot Measure Group Sues DeSantis Health Official For \u2018Unconstitutional Censorship Of Political Speech\u2019",
-      "url": "https://www.msn.com/en-us/news/us/abortion-ballot-measure-group-sues-desantis-health-official-for-pressure-campaign-on-tv-stations/ar-AA1snvgk"
-    },
-    {
-      "description": "Harris brushes off criticism of her \u2018scripted\u2019 style in wide-ranging interview with Charlamagne tha God",
-      "url": "https://www.msn.com/en-us/news/politics/harris-defends-scripted-style-and-agrees-trump-is-about-fascism-in-wide-ranging-interview-with-charlamagne-tha-god/ar-AA1skLbz"
-    },
-    {
-      "description": "Nebraska voters to choose between historic, dueling abortion questions",
-      "url": "https://www.msn.com/en-us/news/us/nebraska-voters-to-choose-between-historic-dueling-abortion-questions/ar-AA1smy8a"
-    },
-    {
-      "description": "Chuck Todd: Will Biden cost Harris the election?",
-      "url": "https://www.msn.com/en-us/news/politics/chuck-todd-will-biden-cost-harris-the-election/ar-AA1sm8TX"
-    }
-  ],
-  "Technology": [
-    {
-      "description": "SpaceX\u2019s launch this weekend will reshape the space industry",
-      "url": "https://www.msn.com/en-us/news/technology/spacex-s-launch-this-weekend-will-reshape-the-space-industry/ar-AA1smM5V"
-    },
-    {
-      "description": "Countries that have cashed in on their top-level domain names",
-      "url": "https://www.msn.com/en-us/money/companies/countries-that-have-cashed-in-on-their-top-level-domain-names/ar-AA1sjFZl"
-    },
-    {
-      "description": "Google will help build seven nuclear reactors to power its AI systems",
-      "url": "https://www.msn.com/en-us/money/other/google-will-help-build-seven-nuclear-reactors-to-power-its-ai-systems/ar-AA1sjpyi"
-    },
-    {
-      "description": "Pacific Northwest tech startup deals: The top 15 funding rounds during Q3",
-      "url": "https://www.msn.com/en-us/money/companies/pacific-northwest-tech-startup-deals-the-top-15-funding-rounds-during-q3/ar-AA1sj6Sh"
-    },
-    {
-      "description": "How to tell if your child is addicted to doom scrolling",
-      "url": "https://www.msn.com/en-us/lifestyle/parenting/how-to-tell-if-your-child-is-addicted-to-doom-scrolling/ar-AA1sk3xf"
-    },
-    {
-      "description": "How the tiny Caribbean island of Anguilla has turned the AI boom into a digital gold mine",
-      "url": "https://www.msn.com/en-us/money/technology/how-the-tiny-caribbean-island-of-anguilla-has-turned-the-ai-boom-into-a-digital-gold-mine/ar-AA1sj0Bg"
-    },
-    {
-      "description": "Mysterious new frog species found to croak like \u2018Star Trek\u2019 special effects",
-      "url": "https://www.msn.com/en-us/news/technology/mysterious-new-frog-species-found-to-croak-like-star-trek-special-effects/ar-AA1si7U5"
-    },
-    {
-      "description": "Elon Musks mission to Mars could RUIN the Red Planet, scientist warns",
-      "url": "https://www.msn.com/en-us/news/technology/elon-musks-mission-to-mars-could-ruin-the-red-planet-scientist-warns/ar-AA1siWWz"
-    },
-    {
-      "description": "Hong Kong scammers defrauded victims of over $46 million using deepfake AI",
-      "url": "https://www.msn.com/en-us/news/world/hong-kong-scammers-defrauded-victims-of-over-46-million-using-deepfake-ai/ar-AA1sieZZ"
-    },
-    {
-      "description": "Under-16s face social media ban unless \u2018addictive\u2019 features dropped",
-      "url": "https://www.msn.com/en-us/news/technology/under-16s-face-social-media-ban-unless-addictive-features-dropped/ar-AA1shlZI"
-    },
-    {
-      "description": "The U.S. defense and homeland security departments have paid $700 million for AI projects since ChatGPT\u2019s launch",
-      "url": "https://www.msn.com/en-us/money/companies/the-us-defense-and-homeland-security-departments-have-paid-700-million-for-ai-projects-since-chatgpt-s-launch/ar-AA1sgANO"
-    },
-    {
-      "description": "Hispanic Heritage Month: Ju\u00e1rez native aims for success with 2 businesses",
-      "url": "https://www.msn.com/en-us/money/smallbusiness/hispanic-heritage-month-ju%C3%A1rez-native-aims-for-success-with-2-businesses/ar-AA1shfRz"
-    }
-  ],
-  "Science": [
-    {
-      "description": "SpaceX\u2019s launch this weekend will reshape the space industry",
-      "url": "https://www.msn.com/en-us/news/technology/spacex-s-launch-this-weekend-will-reshape-the-space-industry/ar-AA1smM5V"
-    },
-    {
-      "description": "Scientists searching distant solar system for possible alien radio signals",
-      "url": "https://www.msn.com/en-us/news/technology/scientists-searching-distant-solar-system-for-possible-alien-radio-signals/ar-AA1snDSF"
-    },
-    {
-      "description": "Asteroids hiding in Doomsday swarm heading towards Earth, confirm scientists",
-      "url": "https://www.msn.com/en-us/news/technology/asteroids-hiding-in-doomsday-swarm-heading-towards-earth-confirm-scientists/ar-AA1snDwZ"
-    },
-    {
-      "description": "Atlas comet: Whens your best chance to spot comet that may never return",
-      "url": "https://www.msn.com/en-us/news/technology/atlas-comet-whens-your-best-chance-to-spot-comet-that-may-never-return/ar-AA1sniF9"
-    },
-    {
-      "description": "7 Fascinating Maple Tree Facts You Should Know",
-      "url": "https://www.msn.com/en-us/lifestyle/home-and-garden/7-fascinating-maple-tree-facts-you-should-know/ar-AA1qVejG"
-    },
-    {
-      "description": "Look at This Freakin\u2019 Thing",
-      "url": "https://www.msn.com/en-us/news/technology/look-at-this-freakin-thing/ar-AA1s5UhZ"
-    },
-    {
-      "description": "Hubble Telescope Shows Great Red Spot of Jupiter Bouncing Like a Kickball",
-      "url": "https://www.msn.com/en-us/news/technology/hubble-telescope-shows-great-red-spot-of-jupiter-bouncing-like-a-kickball/ar-AA1s36ka"
-    },
-    {
-      "description": "Countries that have cashed in on their top-level domain names",
-      "url": "https://www.msn.com/en-us/money/companies/countries-that-have-cashed-in-on-their-top-level-domain-names/ar-AA1sjFZl"
-    },
-    {
-      "description": "Google will help build seven nuclear reactors to power its AI systems",
-      "url": "https://www.msn.com/en-us/money/other/google-will-help-build-seven-nuclear-reactors-to-power-its-ai-systems/ar-AA1sjpyi"
-    },
-    {
-      "description": "How the tiny Caribbean island of Anguilla has turned the AI boom into a digital gold mine",
-      "url": "https://www.msn.com/en-us/money/technology/how-the-tiny-caribbean-island-of-anguilla-has-turned-the-ai-boom-into-a-digital-gold-mine/ar-AA1sj0Bg"
-    },
-    {
-      "description": "Top secret US spaceship to attempt unprecedented maneuver above Earth",
-      "url": "https://www.msn.com/en-us/news/technology/top-secret-us-spaceship-to-attempt-unprecedented-maneuver-above-earth/ar-AA1sjEb6"
-    },
-    {
-      "description": "Space travel comes with big dreams and bigger business",
-      "url": "https://www.msn.com/en-us/news/technology/space-travel-comes-with-big-dreams-and-bigger-business/ar-AA1siFWR"
-    }
-  ],
-  "Sports": [
-    {
-      "description": "Sources: Giants star LT Andrew Thomas (Lisfranc) out for season",
-      "url": "https://www.msn.com/en-us/sports/nfl/sources-giants-star-lt-andrew-thomas-lisfranc-out-for-season/ar-AA1snmSR"
-    },
-    {
-      "description": "Houston Texans mailbag: Assessing the defensive line shuffle, trade targets and more",
-      "url": "https://www.msn.com/en-us/sports/nfl/houston-texans-mailbag-assessing-the-defensive-line-shuffle-trade-targets-and-more/ar-AA1smLtL"
-    },
-    {
-      "description": "NFL scoring has finally bounced back",
-      "url": "https://www.msn.com/en-us/sports/nfl/nfl-scoring-has-finally-bounced-back/ar-AA1smqTy"
-    },
-    {
-      "description": "Thomas Tuchel named England manager: FA hires ex-Chelsea boss",
-      "url": "https://www.msn.com/en-us/sports/soccer/thomas-tuchel-named-england-manager-fa-hires-ex-chelsea-boss/ar-AA1smhL3"
-    },
-    {
-      "description": "As he enters his 17th NBA season, Kevin Love has finally found joy",
-      "url": "https://www.msn.com/en-us/sports/nba/as-he-enters-his-17th-nba-season-kevin-love-has-finally-found-joy/ar-AA1snD7C"
-    },
-    {
-      "description": "Aidan Chiles next step: Michigan State football QB knows he must cut costly turnovers",
-      "url": "https://www.msn.com/en-us/sports/other/aidan-chiles-next-step-michigan-state-football-qb-knows-he-must-cut-costly-turnovers/ar-AA1smvNE"
-    },
-    {
-      "description": "USMNT: Mauricio Pochettino urges patience after Mexico loss",
-      "url": "https://www.msn.com/en-us/sports/soccer/usmnt-mauricio-pochettino-urges-patience-after-mexico-loss/ar-AA1slY5b"
-    },
-    {
-      "description": "Can Guardians rediscover Guards\u2019 ball before they\u2019re eliminated in ALCS?",
-      "url": "https://www.msn.com/en-us/sports/mlb/can-guardians-rediscover-guards-ball-before-they-re-eliminated-in-alcs/ar-AA1smezw"
-    },
-    {
-      "description": "Houston Rockets show benefits of roster continuity in preseason win over New Orleans Pelicans",
-      "url": "https://www.msn.com/en-us/sports/nba/houston-rockets-show-benefits-of-roster-continuity-in-preseason-win-over-new-orleans-pelicans/ar-AA1sluFq"
-    },
-    {
-      "description": "Flyers rookie Matvei Michkov scores his first two NHL goals in first period vs. Oilers",
-      "url": "https://www.msn.com/en-us/sports/nhl/flyers-rookie-matvei-michkov-scores-his-first-two-nhl-goals-in-first-period-vs-oilers/ar-AA1sllzR"
-    },
-    {
-      "description": "Inter Miami schedule: When is Lionel Messis next MLS game?",
-      "url": "https://www.msn.com/en-us/sports/soccer/inter-miami-schedule-when-is-lionel-messis-next-mls-game/ar-BB1idlnZ"
-    },
-    {
-      "description": "Left for dead by fans, Yankees veteran turned to ex-teammate for help that turned around season",
-      "url": "https://www.msn.com/en-us/sports/mlb/left-for-dead-by-fans-yankees-veteran-turned-to-ex-teammate-for-help-that-turned-around-season/ar-AA1snqvM"
-    }
-  ],
-  "US": [
-    {
-      "description": "CBI selects fledgling consulting firm to audit forensic services in wake of DNA scandal",
-      "url": "https://www.msn.com/en-us/money/companies/cbi-selects-fledgling-consulting-firm-to-audit-forensic-services-in-wake-of-dna-scandal/ar-AA1sn5zt"
-    },
-    {
-      "description": "Key takeaways from the combative Ted Cruz, Colin Allred debate",
-      "url": "https://www.msn.com/en-us/news/politics/key-takeaways-from-the-combative-ted-cruz-colin-allred-debate/ar-AA1snnNe"
-    },
-    {
-      "description": "Hurricane center lowers chances for approaching Atlantic system to develop",
-      "url": "https://www.msn.com/en-us/weather/topstories/hurricane-center-lowers-chances-for-approaching-atlantic-system-to-develop/ar-AA1sncL3"
-    },
-    {
-      "description": "Bullies attacked, verbally abused my kid at elementary school, N.J. mom says in lawsuit",
-      "url": "https://www.msn.com/en-us/news/us/bullies-attacked-verbally-abused-my-kid-at-elementary-school-nj-mom-says-in-lawsuit/ar-AA1smLV0"
-    },
-    {
-      "description": "Calls for mercy mount as Texas death row inmate faces execution for a crime his advocates say did not happen",
-      "url": "https://www.msn.com/en-us/news/us/calls-for-mercy-mount-as-texas-death-row-inmate-faces-execution-for-a-crime-his-advocates-say-did-not-happen/ar-AA1sndkg"
-    },
-    {
-      "description": "More than 672K Michigan voters have returned absentee ballots ahead of Nov. 5 election",
-      "url": "https://www.msn.com/en-us/news/politics/more-than-672k-michigan-voters-have-returned-absentee-ballots-ahead-of-nov-5-election/ar-AA1snf3A"
-    },
-    {
-      "description": "Georgia made Kirby Smart college footballs highest-paid coach. But at what cost?",
-      "url": "https://www.msn.com/en-us/sports/other/georgia-made-kirby-smart-college-footballs-highest-paid-coach-but-at-what-cost/ar-AA1smvTN"
-    },
-    {
-      "description": "NKY man accused of killing grandmother after warning she would suffer the consequences",
-      "url": "https://www.msn.com/en-us/news/crime/nky-man-accused-of-killing-grandmother-after-warning-she-would-suffer-the-consequences/ar-AA1skPXS"
-    },
-    {
-      "description": "Are you playing the wrong lottery numbers? These are the luckiest Powerball numbers to pick",
-      "url": "https://www.msn.com/en-us/news/us/are-you-playing-the-wrong-lottery-numbers-these-are-the-luckiest-powerball-numbers-to-pick/ar-AA1smTIS"
-    },
-    {
-      "description": "Early voting in the Nov. 5 election starts in Tennessee: What to know",
-      "url": "https://www.msn.com/en-us/news/politics/early-voting-in-the-nov-5-election-starts-in-tennessee-what-to-know/ar-AA1smvsf"
-    },
-    {
-      "description": "Some in Kensington say police are using Narcan on people who aren\u2019t overdosing",
-      "url": "https://www.msn.com/en-us/news/crime/some-in-kensington-say-police-are-using-narcan-on-people-who-aren-t-overdosing/ar-AA1smgrz"
-    },
-    {
-      "description": "Nebraska high court to decide if residents with felony records can vote",
-      "url": "https://www.msn.com/en-us/news/politics/nebraska-s-high-court-says-people-with-felony-records-can-register-to-vote/ar-AA1slvdC"
-    }
-  ],
-  "World": [
-    {
-      "description": "Zelensky reveals Victory Plan, calls for NATO membership",
-      "url": "https://www.msn.com/en-us/news/world/zelensky-reveals-victory-plan-calls-for-urgent-nato-membership/ar-AA1smTP7"
-    },
-    {
-      "description": "Senior US official warns of North Korean nuclear threats and help for Russia",
-      "url": "https://www.msn.com/en-us/news/world/senior-us-official-warns-of-north-korean-nuclear-threats-and-help-for-russia/ar-AA1smVOd"
-    },
-    {
-      "description": "Stray dogs are eating dead bodies in the streets of northern Gaza, emergency services chief says",
-      "url": "https://www.msn.com/en-us/news/world/stray-dogs-are-eating-dead-bodies-in-the-streets-of-northern-gaza-emergency-services-chief-says/ar-AA1snruq"
-    },
-    {
-      "description": "New UK bill aims to legalize assisted dying for people who are terminally ill",
-      "url": "https://www.msn.com/en-us/health/health-news/new-uk-bill-aims-to-legalize-assisted-dying-for-people-who-are-terminally-ill/ar-AA1smcZU"
-    },
-    {
-      "description": "Who supplies Israel with weapons?",
-      "url": "https://www.msn.com/en-us/news/world/who-supplies-israel-with-weapons/ar-AA1sniYE"
-    },
-    {
-      "description": "Mexico militarys role in migrant massacre comes under sharp scrutiny",
-      "url": "https://www.msn.com/en-us/news/world/mexico-militarys-role-in-migrant-massacre-comes-under-sharp-scrutiny/ar-AA1sn0Kd"
-    },
-    {
-      "description": "US suggests military aid to Israel is at risk in letter demanding more aid for Gaza",
-      "url": "https://www.msn.com/en-us/news/world/us-suggests-military-aid-to-israel-is-at-risk-in-letter-demanding-more-aid-for-gaza/ar-AA1sjc6X"
-    },
-    {
-      "description": "Poland\u2019s Tusk says future of liberal democracy across EU hinges on tougher migration policy",
-      "url": "https://www.msn.com/en-us/news/world/poland-s-tusk-says-future-of-liberal-democracy-across-eu-hinges-on-tougher-migration-policy/ar-AA1snBGF"
-    },
-    {
-      "description": "Sakaja Withdraws from DP Gachagua Impeachment Case",
-      "url": "https://www.msn.com/en-us/news/world/sakaja-withdraws-from-dp-gachagua-impeachment-case/ar-AA1snDwt"
-    },
-    {
-      "description": "Downing Street rejects conflict of interest claims over PM\u2019s meeting with Swift",
-      "url": "https://www.msn.com/en-us/news/world/downing-street-rejects-conflict-of-interest-claims-over-pm-s-meeting-with-swift/ar-AA1sn9I7"
-    },
-    {
-      "description": "Ukraine-Russia latest: Six Russian soldiers given France visas after fleeing Vladimir Putin\u2019s war",
-      "url": "https://www.msn.com/en-us/news/world/ukraine-russia-latest-zelensky-unveils-five-point-victory-plan-as-putin-s-forces-launch-mass-drone-attack/ar-AA1rrhjs"
-    },
-    {
-      "description": "Israel\u2019s use of aid as pressure tactic raises criticism in Gaza conflict",
-      "url": "https://www.msn.com/en-us/news/world/israel-s-use-of-aid-as-pressure-tactic-raises-criticism-in-gaza-conflict/ar-AA1snh9v"
-    }
-  ]
+  "date": "2024-10-27",
+  "results": {
+    "World": [
+      {
+        "description": "Iran Points Finger at US After Israeli Attack",
+        "url": "https://www.msn.com/en-us/news/world/iran-points-finger-at-us-after-israeli-attack/ar-AA1t0uVN"
+      },
+      {
+        "description": "Vance calls Russia an American adversary but won&#39;t label Moscow as an enemy",
+        "url": "https://www.msn.com/en-us/news/politics/vance-calls-russia-an-american-adversary-but-wont-label-moscow-as-an-enemy/ar-AA1t0VtZ"
+      },
+      {
+        "description": "Japan&#39;s Liberal Democratic Party to lose parliamentary majority in snap election, exit polls show",
+        "url": "https://www.msn.com/en-us/news/world/japans-liberal-democratic-party-to-lose-parliamentary-majority-in-snap-election-exit-polls-show/ar-AA1t0LRJ"
+      },
+      {
+        "description": "Ukraine-Russia war live: Putin warns against using long-range weapons as Russian troops advance on prize city",
+        "url": "https://www.msn.com/en-us/news/world/ukraine-russia-war-live-putin-warns-against-using-long-range-weapons-as-russian-troops-advance-on-prize-city/ar-AA1rrhjs"
+      },
+      {
+        "description": "Satellite images show damage from air strikes at two Iranian military sites",
+        "url": "https://www.msn.com/en-us/news/world/satellite-images-show-damage-from-air-strikes-at-two-iranian-military-sites/ar-AA1t0nwL"
+      },
+      {
+        "description": "Jenrick: Garbage personal attacks by Badenoch will destroy Tory party",
+        "url": "https://www.msn.com/en-us/news/world/jenrick-garbage-personal-attacks-by-badenoch-will-destroy-tory-party/ar-AA1t0Vr0"
+      },
+      {
+        "description": "Michelle Obama Warns Against Rage Voting: Live Updates",
+        "url": "https://www.msn.com/en-us/news/politics/michelle-obama-warns-against-rage-voting-live-updates/ar-AA1sWiDM"
+      },
+      {
+        "description": "Revealed: Farage-inspired plot to persuade Trump to veto Starmer\u2019s Chagos Islands deal",
+        "url": "https://www.msn.com/en-us/news/world/revealed-farage-inspired-plot-to-persuade-trump-to-veto-starmer-s-chagos-islands-deal/ar-AA1t0lin"
+      },
+      {
+        "description": "Israel-Gaza-Lebanon live updates: &#39;Dozens&#39; hurt in Israel as truck hits bus stop",
+        "url": "https://www.msn.com/en-us/news/world/israel-gaza-lebanon-live-updates-israel-made-mistake-with-iran-attack-khamenei-says/ar-AA1sCUq9"
+      },
+      {
+        "description": "Israeli strikes kill at least 22 in northern Gaza, Palestinian officials say",
+        "url": "https://www.msn.com/en-us/news/world/israeli-strikes-kill-at-least-22-in-northern-gaza-palestinian-officials-say/ar-AA1t0jXP"
+      },
+      {
+        "description": "Scholz has \u2018kissed goodbye\u2019 to nuclear deterrence",
+        "url": "https://www.msn.com/en-us/news/world/scholz-has-kissed-goodbye-to-nuclear-deterrence/ar-AA1t0XM3"
+      },
+      {
+        "description": "Vance Says Trump Would Keep US in NATO, Germany Needs to Step Up",
+        "url": "https://www.msn.com/en-us/news/world/vance-says-trump-would-keep-us-in-nato-germany-needs-to-step-up/ar-AA1t0ZaN"
+      }
+    ]
+  }
 }
