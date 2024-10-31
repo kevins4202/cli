@@ -1,6 +1,6 @@
 import requests, json, time, os
 
-subscription_key = os.environ.get("NEWSAPI_KEY1")
+subscription_key = os.environ.get("NEWSAPI_KEY")
 # print(subscription_key)
 # print(path)
 search_term = "election"
