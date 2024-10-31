@@ -1,43 +1,37 @@
-# .github/workflows/daily_run.yml
-
-name: Daily Python Script
+name: Daily News Fetch
 
 on:
   schedule:
-    - cron: '15 21 * * *'  # Runs daily at 4 AM UTC
+    # Runs at 4 AM UTC every day
+    - cron: '25 22 * * *'
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
 jobs:
-  run-python:
+  fetch-news:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.9'
-
-      - name: Install dependencies
-        run: |
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-
-      - name: Run Python script
-        run: python3 bing.py
-        env:
-          API_KEY: ${{ secrets.NEWSAPI_KEY }}  # Pass the secret as an environment variable
-
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Automated update: add new file"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+  
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+    
+    - name: Run news fetch script
+      env:
+        NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+      run: python3 bing.py
+    
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add results/result.json
+        git commit -m "Update news data" -a || exit 0
+        git push
