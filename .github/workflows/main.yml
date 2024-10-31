@@ -35,3 +35,5 @@ jobs:
         git add results/result.json
         git commit -m "Update news data" -a || exit 0
         git push
+      env: 
+        GITHUB_TOKEN: ${{SECRETS.ACTIONS_PAT}}
