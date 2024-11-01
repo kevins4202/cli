@@ -1,1 +1,55 @@
-{"date": "2024-11-01", "results": {"World": [{"description": "Typhoon Kong-rey bashes Taiwan, the largest storm to hit island since 1996", "url": "https://www.msn.com/en-us/news/world/typhoon-kong-rey-bashes-taiwan-the-largest-storm-to-hit-island-since-1996/ar-AA1tflHr"}, {"description": "China\u2019s manufacturing output swings back into expansion in October, private survey finds", "url": "https://www.msn.com/en-us/money/markets/china-s-manufacturing-output-swings-back-into-expansion-in-october-private-survey-finds/ar-AA1tiFLJ"}, {"description": "China has a lot at stake in the US election. So why aren\u2019t they rooting for a winner?", "url": "https://www.msn.com/en-us/news/world/china-s-watching-the-us-election-but-doesn-t-see-much-hope-for-better-ties/ar-AA1tiHxj"}, {"description": "Botswana president concedes defeat in election, ending ruling party&#39;s 58 years in power", "url": "https://www.msn.com/en-us/news/world/botswana-president-concedes-defeat-in-election-ending-ruling-partys-58-years-in-power/ar-AA1tjgDe"}, {"description": "South Korea imposes sanctions on North Korean officials after latest missile test", "url": "https://www.msn.com/en-us/news/world/south-korea-imposes-sanctions-on-north-korean-officials-after-latest-missile-test/ar-AA1tjgUD"}, {"description": "Egypt takes steps to better protect camels used for tourist rides", "url": "https://www.msn.com/en-us/travel/news/egypt-takes-steps-to-better-protect-camels-used-for-tourist-rides/ar-AA1tcGDk"}, {"description": "Ukraine-Russia live: North Koreans in Putin\u2019s \u2018meat grinder\u2019 war legitimate military target, says Blinken", "url": "https://www.msn.com/en-us/news/world/ukraine-russia-live-thousands-of-north-koreans-in-putin-s-meat-grinder-war-legitimate-target-says-blinken/ar-AA1rrhjs"}, {"description": "Tinubu not showing empathy for Nigerians\u2019 hardship \u2013 Afenifere", "url": "https://www.msn.com/en-us/news/world/tinubu-not-showing-empathy-for-nigerians-hardship-afenifere/ar-AA1tjfFi"}, {"description": "[EXCLUSIVE] Kazakhstan seeks to form consortium with Korea for $10 bil. nuclear power plant project", "url": "https://www.msn.com/en-us/news/world/exclusive-kazakhstan-seeks-to-form-consortium-with-korea-for-10-bil-nuclear-power-plant-project/ar-AA1tjiEc"}, {"description": "Tax review: Presidency mounts defence as 36 governors reject proposal", "url": "https://www.msn.com/en-us/news/politics/tax-review-presidency-mounts-defence-as-36-governors-reject-proposal/ar-AA1tiswy"}, {"description": "Canada persuades other countries to permit Ukraine to strike deep into Russian territory", "url": "https://www.msn.com/en-us/news/world/canada-persuades-other-countries-to-permit-ukraine-to-strike-deep-into-russian-territory/ar-AA1tjxo8"}, {"description": "Nigerian judiciary, threat to democracy, says Senator", "url": "https://www.msn.com/en-us/news/world/nigerian-judiciary-threat-to-democracy-says-senator/ar-AA1tiuPQ"}]}}
+{
+  "date": "2024-11-01",
+  "results": {
+    "World": [
+      {
+        "description": "Typhoon Kong-rey bashes Taiwan, the largest storm to hit island since 1996",
+        "url": "https://www.msn.com/en-us/news/world/typhoon-kong-rey-bashes-taiwan-the-largest-storm-to-hit-island-since-1996/ar-AA1tflHr"
+      },
+      {
+        "description": "China\u2019s manufacturing output swings back into expansion in October, private survey finds",
+        "url": "https://www.msn.com/en-us/money/markets/china-s-manufacturing-output-swings-back-into-expansion-in-october-private-survey-finds/ar-AA1tiFLJ"
+      },
+      {
+        "description": "China has a lot at stake in the US election. So why aren\u2019t they rooting for a winner?",
+        "url": "https://www.msn.com/en-us/news/world/china-s-watching-the-us-election-but-doesn-t-see-much-hope-for-better-ties/ar-AA1tiHxj"
+      },
+      {
+        "description": "Botswana president concedes defeat in election, ending ruling party&#39;s 58 years in power",
+        "url": "https://www.msn.com/en-us/news/world/botswana-president-concedes-defeat-in-election-ending-ruling-partys-58-years-in-power/ar-AA1tjgDe"
+      },
+      {
+        "description": "South Korea imposes sanctions on North Korean officials after latest missile test",
+        "url": "https://www.msn.com/en-us/news/world/south-korea-imposes-sanctions-on-north-korean-officials-after-latest-missile-test/ar-AA1tjgUD"
+      },
+      {
+        "description": "Egypt takes steps to better protect camels used for tourist rides",
+        "url": "https://www.msn.com/en-us/travel/news/egypt-takes-steps-to-better-protect-camels-used-for-tourist-rides/ar-AA1tcGDk"
+      },
+      {
+        "description": "Ukraine-Russia live: North Koreans in Putin\u2019s \u2018meat grinder\u2019 war legitimate military target, says Blinken",
+        "url": "https://www.msn.com/en-us/news/world/ukraine-russia-live-thousands-of-north-koreans-in-putin-s-meat-grinder-war-legitimate-target-says-blinken/ar-AA1rrhjs"
+      },
+      {
+        "description": "Tinubu not showing empathy for Nigerians\u2019 hardship \u2013 Afenifere",
+        "url": "https://www.msn.com/en-us/news/world/tinubu-not-showing-empathy-for-nigerians-hardship-afenifere/ar-AA1tjfFi"
+      },
+      {
+        "description": "[EXCLUSIVE] Kazakhstan seeks to form consortium with Korea for $10 bil. nuclear power plant project",
+        "url": "https://www.msn.com/en-us/news/world/exclusive-kazakhstan-seeks-to-form-consortium-with-korea-for-10-bil-nuclear-power-plant-project/ar-AA1tjiEc"
+      },
+      {
+        "description": "Tax review: Presidency mounts defence as 36 governors reject proposal",
+        "url": "https://www.msn.com/en-us/news/politics/tax-review-presidency-mounts-defence-as-36-governors-reject-proposal/ar-AA1tiswy"
+      },
+      {
+        "description": "Canada persuades other countries to permit Ukraine to strike deep into Russian territory",
+        "url": "https://www.msn.com/en-us/news/world/canada-persuades-other-countries-to-permit-ukraine-to-strike-deep-into-russian-territory/ar-AA1tjxo8"
+      },
+      {
+        "description": "Nigerian judiciary, threat to democracy, says Senator",
+        "url": "https://www.msn.com/en-us/news/world/nigerian-judiciary-threat-to-democracy-says-senator/ar-AA1tiuPQ"
+      }
+    ]
+  }
+}
