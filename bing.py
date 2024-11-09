@@ -17,7 +17,6 @@ def run():
             topics[i] = topics[i].strip()
         print(topics)
 
-    json_obj = {}
     res = {}
     for topic in topics:
             # wait 3 seconds
@@ -44,10 +43,10 @@ def run():
 
         for i in range(len(descriptions)):
             res[topic] = [{"description": descriptions[i], "url": urls[i]} for i in range(len(descriptions))]
-        json_obj['date'] = time.strftime("%Y-%m-%d")
-        json_obj['results'] = res
+        # json_obj['date'] = time.strftime("%Y-%m-%d")
+        # json_obj['results'] = res
     with open(f'results/result.json', 'w') as fp:
-        json.dump(json_obj, fp)
-        print(json_obj)
+        json.dump(res, fp)
+        print(res)
 
 run()
