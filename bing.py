@@ -3,7 +3,6 @@ import requests, json, time, os
 subscription_key = os.environ.get("NEWSAPI_KEY")
 # print(subscription_key)
 # print(path)
-search_term = "election"
 search_url = "https://api.bing.microsoft.com/v7.0/news"
 
 headers = {"Ocp-Apim-Subscription-Key" : subscription_key}
