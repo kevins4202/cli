@@ -3,6 +3,7 @@ name: Daily Data Ingestion
 on:
   schedule:
     - cron: "0 9 * * *" # 5 AM every day
+  workflow_dispatch:
 
 jobs:
   ingest-data:
