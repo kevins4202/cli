@@ -1,3 +1,4 @@
+import os
 import pyodbc
 import json
 
@@ -48,10 +49,10 @@ def connect_to_azure_sql(server, database, username, password):
         return None
 
 def main():
-    server = 'your_server_name.database.windows.net'
-    database = 'your_database_name'
-    username = 'your_username'
-    password = 'your_password'
+    server = os.environ.get('AZURE_SERVER_NAME') 
+    database = os.environ.get('AZURE_DATABASE_NAME')
+    username = os.environ.get('AZURE_USERNAME')
+    password = os.environ.get('AZURE_PASSWORD')
 
     conn = connect_to_azure_sql(server, database, username, password)
     if conn:
