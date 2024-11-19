@@ -22,4 +22,9 @@ jobs:
           pip install pyodbc
 
       - name: Run Python script
+        env:
+          AZURE_DATABASE_NAME: ${{ secrets.AZURE_DATABASE_NAME }}
+          AZURE_SERVER_NAME: ${{ secrets.AZURE_SERVER_NAME }}
+          AZURE_USERNAME: ${{ secrets.AZURE_USERNAME }}
+          AZURE_PASSWORD: ${{ secrets.AZURE_PASSWORD }}
         run: python3 sql_test.py
