@@ -41,9 +41,8 @@ def run():
         
 
         for i in range(len(descriptions)):
-            res[topic] = [{"description": descriptions[i], "url": urls[i]} for i in range(len(descriptions))]
-        # json_obj['date'] = time.strftime("%Y-%m-%d")
-        # json_obj['results'] = res
+            res[topic] = [{"headline": descriptions[i], "url": urls[i]} for i in range(len(descriptions))]
+        
     with open(f'results/result.json', 'w') as fp:
         json.dump(res, fp)
         print(res)

@@ -1,26 +1,72 @@
-import os
 import pyodbc
+import json
 
-# Retrieve the connection string from the environment variable
-connection_string = os.getenv("AZURE_SQL_CONNECTION_STRING")
+def check_table_exists(cursor, table_name):
+    cursor.execute(f"SELECT COUNT(*) FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = '{table_name}'")
+    return cursor.fetchone()[0] > 0
 
-# Check if the connection string is set
-if connection_string:
+def create_tables_if_needed(cursor):
+    with open('cats.txt', 'r') as f:
+        categories = [line.strip() for line in f.readlines()]
+
+    for category in categories:
+        table_name = category.lower()
+        if not check_table_exists(cursor, table_name):
+            cursor.execute(f"""
+                CREATE TABLE {table_name} (
+                    id INT PRIMARY KEY IDENTITY(1,1),
+                    headline NVARCHAR(500) NOT NULL,
+                    url NVARCHAR(2000) NOT NULL,
+                    created_at DATETIME2 DEFAULT GETUTCDATE()
+                )
+            """)
+
+def insert_news_data(cursor, category, news_list):
+    table_name = category.lower()
+    for news in news_list:
+        cursor.execute(f"""
+            INSERT INTO {table_name} (headline, url)
+            VALUES (?, ?)
+        """, (news['headline'], news['url']))
+
+def connect_to_azure_sql(server, database, username, password):
+    conn_str = (
+        r"DRIVER={ODBC Driver 17 for SQL Server};"
+        r"SERVER=" + server + ";"
+        r"DATABASE=" + database + ";"
+        r"Trusted_Connection=no;"
+        r"UID=" + username + ";"
+        r"PWD=" + password + ";"
+    )
+
     try:
-        # Connect to the Azure SQL Database
-        conn = pyodbc.connect(connection_string)
-        print("Connected to the database successfully!")
+        conn = pyodbc.connect(conn_str)
+        print("Connected to Azure SQL Database")
+        return conn
+    except pyodbc.Error as e:
+        print("Error connecting to database:", e)
+        return None
 
-        # Example query
+def main():
+    server = 'your_server_name.database.windows.net'
+    database = 'your_database_name'
+    username = 'your_username'
+    password = 'your_password'
+
+    conn = connect_to_azure_sql(server, database, username, password)
+    if conn:
         cursor = conn.cursor()
-        cursor.execute("SELECT TOP 10 * FROM your_table_name")
-        for row in cursor.fetchall():
-            print(row)
 
-        # Close connection
+        create_tables_if_needed(cursor)
+
+        with open('result.json', 'r') as f:
+            data = json.load(f)
+
+        for category, news_list in data.items():
+            insert_news_data(cursor, category, news_list)
+
+        conn.commit()
         conn.close()
-    except Exception as e:
-        print("Failed to connect to the database")
-        print(e)
-else:
-    print("Connection string not found. Please set the AZURE_SQL_CONNECTION_STRING environment variable.")
+
+if __name__ == "__main__":
+    main()
