@@ -38,6 +38,9 @@ def connect_to_azure_sql(server, database, username, password):
         r"Trusted_Connection=no;"
         r"UID=" + username + ";"
         r"PWD=" + password + ";"
+        r'Encrypt=yes;'
+        r'TrustServerCertificate=no;'
+        r'Connection Timeout=30;'
     )
 
     try:
