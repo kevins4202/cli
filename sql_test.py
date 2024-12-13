@@ -71,6 +71,8 @@ def main():
 
         conn.commit()
         conn.close()
+    else:
+        print("Failed to connect to Azure SQL Database")
 
 if __name__ == "__main__":
     main()
