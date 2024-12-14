@@ -3,6 +3,7 @@
 #include <curl/curl.h>
 #include "json.hpp"
 #include <random>
+#include <filesystem>
 
 using json = nlohmann::json;
 using namespace std;
@@ -80,6 +81,15 @@ vector<string> getRandomHeadlines(json newsData, int num)
 
 bool fetchGitHubNewsFile(string &fileContent)
 {
+    ifstream fileStream;
+    fileStream.open("results/result.json");
+    if (!fileStream.fail()) {
+        json newsData = json::parse(fileStream);
+        fileStream.close();
+        fileContent = newsData.dump();
+        return true;
+    }
+
     CURL *curl;
     CURLcode res;
     string readBuffer;
@@ -125,6 +135,11 @@ bool fetchGitHubNewsFile(string &fileContent)
 
     // Store the file content
     fileContent = readBuffer;
+    json newsData = json::parse(fileContent);
+    ofstream file("results/result.json");
+    file << newsData.dump();
+    file.close();
+    
     return true;
 }
 
