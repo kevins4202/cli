@@ -44,8 +44,7 @@ def run():
             res[topic] = [{"headline": descriptions[i], "url": urls[i]} for i in range(len(descriptions))]
     
     # date, time
-    res['date'] = time.strftime("%Y-%m-%d")
-    res['time'] = time.strftime("%H:%M")
+    res['time'] = time.strftime("%Y-%m-%d-%H-%M")
 
     with open(f'results/result.json', 'w') as fp:
         json.dump(res, fp)

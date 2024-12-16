@@ -57,7 +57,7 @@ vector<string> getRandomHeadlines(json newsData, int num)
     }
 
     vector<string> ret;
-    
+
     random_device dev;
     mt19937 rng(dev());
     uniform_int_distribution<mt19937::result_type> rand1(0, categories.size());
@@ -79,15 +79,48 @@ vector<string> getRandomHeadlines(json newsData, int num)
     return ret;
 }
 
+string getCurrentTime()
+{
+    string format = "%Y-%m-%d-%H-%M";
+    time_t now = time(0);
+    tm *now_tm = gmtime(&now);
+    char buf[42];
+    strftime(buf, 42, "%Y-%m-%d-%H-%M", now_tm);
+
+    return buf;
+}
+
 bool fetchGitHubNewsFile(string &fileContent)
 {
+    string current_time = getCurrentTime();
+
     ifstream fileStream;
     fileStream.open("results/result.json");
-    if (!fileStream.fail()) {
+    if (!fileStream.fail())
+    {
         json newsData = json::parse(fileStream);
+
+        string save_time = newsData["time"].get<string>();
+
+        tm tm1 = {};
+        stringstream ss1(save_time);
+        ss1 >> std::get_time(&tm1, "%Y-%m-%d-%H-%M");
+        tm1.tm_mday += 1;
+        time_t t1 = mktime(&tm1);
+
+        tm tm2 = {};
+        stringstream ss2(current_time);
+        ss2 >> get_time(&tm2, "%Y-%m-%d-%H-%M");
+        time_t t2 = mktime(&tm2);
+
+
+        if (t2 < t1)
+        {
+            fileStream.close();
+            fileContent = newsData.dump();
+            return true;
+        }
         fileStream.close();
-        fileContent = newsData.dump();
-        return true;
     }
 
     CURL *curl;
@@ -139,7 +172,7 @@ bool fetchGitHubNewsFile(string &fileContent)
     ofstream file("results/result.json");
     file << newsData.dump();
     file.close();
-    
+
     return true;
 }
 
@@ -210,10 +243,13 @@ int main(int argc, char **argv)
         // If no flags are set, show 10 random headlines
         if (!tech && !business && !science && !sports && !entertainment && !politics && !us && !world)
         {
-            cout << "\n=== Random Headlines ===" << endl<<endl;
+            cout << "\n=== Random Headlines ===" << endl
+                 << endl;
 
-            for (const auto &headline : getRandomHeadlines(newsData, 10)) {
-                cout << headline<<endl<<endl;
+            for (const auto &headline : getRandomHeadlines(newsData, 10))
+            {
+                cout << headline << endl
+                     << endl;
             }
         }
         else
@@ -237,10 +273,12 @@ int main(int argc, char **argv)
                 category = "World";
 
             vector<string> headlines = getCategoryNews(category, newsData);
-            cout << "\n=== " << category << " News ===" << endl<<endl;
+            cout << "\n=== " << category << " News ===" << endl
+                 << endl;
             for (string headline : headlines)
             {
-                cout << headline<<endl<<endl;
+                cout << headline << endl
+                     << endl;
             }
         }
     }
