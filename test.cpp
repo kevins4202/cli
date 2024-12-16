@@ -116,6 +116,7 @@ bool fetchGitHubNewsFile(string &fileContent)
 
         if (t2 < t1)
         {
+            // cout<<"UPDATE"<<endl;
             fileStream.close();
             fileContent = newsData.dump();
             return true;
